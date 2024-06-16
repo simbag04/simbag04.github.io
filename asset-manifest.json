@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c51da7b.css",
-    "main.js": "/static/js/main.39a62b92.js",
+    "main.css": "/static/css/main.72ce0f0a.css",
+    "main.js": "/static/js/main.18e8648f.js",
     "static/media/Simran.jpg": "/static/media/Simran.2d5b171b469f2d1f85b0.jpg",
     "static/media/resume.pdf": "/static/media/resume.ebb3d4e22a4cd90a3805.pdf",
     "static/media/3-steps.png": "/static/media/3-steps.c819a9579f07474410f1.png",
@@ -10,11 +10,12 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.2be0f9365b8c1e45ab34742a537f8bb8.svg",
     "static/media/email.svg": "/static/media/email.c7a364af28c1fc7cbb30013d1a063471.svg",
-    "main.2c51da7b.css.map": "/static/css/main.2c51da7b.css.map",
-    "main.39a62b92.js.map": "/static/js/main.39a62b92.js.map"
+    "static/media/menu.svg": "/static/media/menu.6c861e6aa290f4ab59bb6fddde053ee6.svg",
+    "main.72ce0f0a.css.map": "/static/css/main.72ce0f0a.css.map",
+    "main.18e8648f.js.map": "/static/js/main.18e8648f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c51da7b.css",
-    "static/js/main.39a62b92.js"
+    "static/css/main.72ce0f0a.css",
+    "static/js/main.18e8648f.js"
   ]
 }
