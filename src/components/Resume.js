@@ -1,5 +1,5 @@
 import React from "react" 
-import resume from '../resume.pdf'
+import resume from '../artifacts/resume.pdf'
 
 export const Resume = () => {
   return <div className="resume-section">

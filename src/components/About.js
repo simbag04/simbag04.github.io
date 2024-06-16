@@ -1,8 +1,8 @@
 import React from "react"
-import Simran from '../Simran.jpg'
-import github from '../github.svg'
-import linkedin from '../linkedin.svg'
-import email from '../email.svg'
+import Simran from '../artifacts/Simran.jpg'
+import github from '../artifacts/github.svg'
+import linkedin from '../artifacts/linkedin.svg'
+import email from '../artifacts/email.svg'
 
 export const About = () => {
   return (

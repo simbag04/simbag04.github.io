@@ -1,6 +1,6 @@
 import Project from "./Project"
-import Steps from '../3-steps.png'
-import Blog from '../blog.png'
+import Steps from '../artifacts/3-steps.png'
+import Blog from '../artifacts/blog.png'
 
 export const Projects = () => {
     return (
@@ -8,7 +8,7 @@ export const Projects = () => {
             <ul>
                 <li><Project title="3 Steps (in progress)"
                     img={Steps}
-                    description="A comprehensive calculus learning platform featuring content for students to learn, unlimited practice problems, and timely reviews of material."
+                    description="A comprehensive calculus learning platform featuring content for students to learn, unlimited practice problems, and timely reviews of material"
                     technologies="MongoDB, Express.js, React.js, Node.js, REST API, d3.js"
                     site="https://simbag04.github.io/3-steps-client"
                     repo="https://github.com/simbag04/3-steps-client">
