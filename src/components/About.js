@@ -14,7 +14,7 @@ export const About = () => {
             Hi! I'm Simran Bagaria, a junior at the University of Washington in Seattle, majoring in computer science. At UW, I am part of the WEIRD Lab, led by Professor Abhishek Gupta, where I do research within robotics and reinforcement learning. I am also a SWE Intern at J.P. Morgan Chase in Seattle, WA.
           </p>
           <p>
-            In my free time, I love reading, traveling, cooking, watching kdramas, listening to music, or spending time with my friends. Please feel free to reach out to me to chat about anything!
+            In my free time, I love reading, traveling, cooking, hiking, or spending time with my friends. Please feel free to reach out to me to chat about anything!
           </p>
           <ul className='contact-icons'>
             <li>
