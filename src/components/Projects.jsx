@@ -1,6 +1,7 @@
 import Project from "./Project"
 import Steps from '../artifacts/3-steps.png'
 import Blog from '../artifacts/blog.png'
+import React from 'react';
 
 export const Projects = () => {
     return (

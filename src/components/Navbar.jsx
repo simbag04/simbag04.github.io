@@ -36,7 +36,7 @@ export const Navbar = () => {
     <>
     <div className="nav-container">
       <div className="navbar">
-        <h4 onClick={titleClickHandler} className="title">Simran Bagaria</h4>
+        <h1 onClick={titleClickHandler} className="title">Simran Bagaria</h1>
         <ul>
           <li onClick={clickHandler} className={active === 'home' ? 'active' : ''} id="home">Home</li>
           <li onClick={clickHandler} className={active === 'projects' ? 'active' : ''} id="projects">Projects</li>

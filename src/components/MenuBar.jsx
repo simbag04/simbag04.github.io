@@ -1,4 +1,5 @@
 import { useLayoutEffect, useState } from "react"
+import React from 'react';
 
 const MenuBar = (props) => {
     const clickHandler = (e) => {
