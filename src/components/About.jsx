@@ -11,14 +11,14 @@ export const About = () => {
         <div className="info">
 
           <p>
-            Hi! I'm Simran Bagaria, a Masters student at the University of Washington in Seattle, majoring in computer science. I received my B.S. in computer science, also from UW, in August 2024. At UW, I am part of the WEIRD Lab, led by Professor Abhishek Gupta, where I do research within robotics and reinforcement learning. Previously, I was also a SWE Intern at J.P. Morgan Chase in Seattle, WA.
+            Hi, I'm Simran Bagaria! I am a current Software Engineer at J.P. Morgan Chase Bank in Seattle, WA. Previously, I completed my Bachelors and Masters degrees in Computer Science at the University of Washington in Seattle. At UW, I had the pleasure of being a part of the of the <a href="https://weirdlab.cs.washington.edu/">WEIRD Lab</a>, led by Professor Abhishek Gupta, where I did research within robotics and reinforcement learning.
           </p>
           <p>
             In my free time, I love reading, traveling, cooking, hiking, or spending time with my friends. Please feel free to reach out to me to chat about anything!
           </p>
           <ul className='contact-icons'>
             <li>
-              <a href='mailto:sbagaria@uw.edu' target="_blank" rel="noreferrer">
+              <a href='mailto:simran.bagaria@gmail.com' target="_blank" rel="noreferrer">
                 <img src={email} alt="email"></img>
               </a>
             </li>

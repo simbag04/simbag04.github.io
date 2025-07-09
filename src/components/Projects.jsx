@@ -1,25 +1,30 @@
 import Project from "./Project"
-import Steps from '../artifacts/3-steps.png'
-import Blog from '../artifacts/blog.png'
+import StrategyQA from '../artifacts/strategyqa.png'
+import Grasping from '../artifacts/grasping.png'
+import Ointment from '../artifacts/ointment.png'
 import React from 'react';
 
 export const Projects = () => {
     return (
         <div className="projects section">
             <ul>
-                <li><Project title="3 Steps (in progress)"
-                    img={Steps}
-                    description="A comprehensive calculus learning platform featuring content for students to learn, unlimited practice problems, and timely reviews of material"
-                    technologies="MongoDB, Express.js, React.js, Node.js, REST API, d3.js"
-                    site="https://simbag04.github.io/3-steps-client"
-                    repo="https://github.com/simbag04/3-steps-client">
+                <li><Project title="Generalized Robotic Grasping via Grasp-Pose Supervision, Object-Aware and Vision-Conditioned Policy Learning"
+                    img={Grasping}
+                    description="Developed a general-purpose grasping system that achieved 82% success on 2,000+ diverse objects using reinforcement learning algorithms and advanced tools like Isaac Sim, IsaacLab, and PyTorch."
+                    site="https://drive.google.com/file/d/1RG11sPxf75W21U4LsCgbxnpm--7v0MD7/view?usp=sharing"
+                >
                 </Project></li>
-                <li><Project title="Blog"
-                    img={Blog}
-                    description="A full-stack Blog application which allows users to view and comment on blog posts, as well as create, edit, and delete their own posts"
-                    technologies="MongoDB, Express.js, React.js, Node.js, REST API"
-                    site="https://simbag04.github.io/blog-client/"
-                    repo="https://github.com/simbag04/blog-client">
+                <li><Project title="Ointment Care Robot for Limited Mobility Users"
+                    img={Ointment}
+                    description="Developed an ointment application system for users with limited mobility using the Stretch RE2 Robot. Conducted user research and designed and implemented system end-to-end using Python, ROS, and JavaScript."
+                    site="https://www.youtube.com/watch?v=cvXvkXMHmvc"
+                >
+                </Project></li>
+                <li><Project title="StrategyQA: Implicit Reasoning in Large Language Models"
+                    img={StrategyQA}
+                    description="Worked with a small team to build a system that answers complex reasoning questions using ML/NLP skills, advanced AI models like BERT and T5, and tools like PyTorch and HuggingFace."
+                    site="https://drive.google.com/file/d/1UxY-bduTPfeiK5a4WjsLw3FGDEEslya5/view?usp=drive_link"
+                >
                 </Project></li>
             </ul>
         </div>
