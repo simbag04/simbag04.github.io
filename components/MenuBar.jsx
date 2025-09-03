@@ -1,10 +1,14 @@
 import { useLayoutEffect, useState } from "react"
+import { useRouter } from "next/router"
 
 const MenuBar = (props) => {
+    const router = useRouter()
     const clickHandler = (e) => {
         let menubar = document.querySelector(".menu-bar")
         menubar.classList.remove('show-menu-bar')
+        router.push(`/${e.target.id === "home" ? "" : e.target.id}`)
         props.clickHandler(e)
+        
     }
 
     const [top, setTop] = useState(0);

@@ -22,7 +22,13 @@ export const Navbar = () => {
   };
 
   const toggleMenuBar = () => {
-    setShowMenu((prev) => !prev);
+    let menubar = document.querySelector(".menu-bar");
+    if (!showMenu) {
+      menubar.classList.add("show-menu-bar");
+    } else {
+      menubar.classList.remove("show-menu-bar");
+    }
+    setShowMenu((showMenu) => !showMenu);
   };
 
   return (
