@@ -5,7 +5,7 @@ export const About = () => {
         <div className="info">
 
           <p>
-            Hi, I'm Simran Bagaria! I am a current Software Engineer at J.P. Morgan Chase Bank in Seattle, WA. Previously, I completed my Bachelors and Masters degrees in Computer Science at the University of Washington in Seattle. At UW, I had the pleasure of being a part of the of the <a className="link" href="https://weirdlab.cs.washington.edu/">WEIRD Lab</a>, led by Professor Abhishek Gupta, where I did research within robotics and reinforcement learning.
+            Hi, I'm Simran Bagaria! I am currently a robotics research engineer at Microsoft Research, working on robotics foundation models under Dr. Andrey Kolobov. Previously, I completed my Bachelors and Masters degrees in Computer Science at the University of Washington in Seattle. At UW, I had the pleasure of being a part of the of the <a className="link" href="https://weirdlab.cs.washington.edu/">WEIRD Lab</a>, led by Professor Abhishek Gupta, where I did research within robotics and reinforcement learning.
           </p>
           <p>
             In my free time, I love reading, traveling, cooking, hiking, or spending time with my friends. Please feel free to reach out to me to chat about anything!
